@@ -1,0 +1,24 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro idade, velho = 0
+		cadeia nome, nvelho = ""
+		enquanto (idade != 0){
+			escreva ("Informe um nome: ")
+			leia (nome)
+			escreva ("Informe uma idade: ")
+			leia (idade)
+		se (idade > velho){
+			nvelho = nome
+			velho = idade
+		}
+		}
+		limpa ()
+		escreva ("Nome do mais velho: "+nvelho)
+		escreva ("\nIdade do mais velho "+velho)	
+		se (velho > 50){
+			escreva (nvelho+" você é um idoso!")
+		}
+	}
+}

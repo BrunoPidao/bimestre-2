@@ -1,0 +1,13 @@
+programa
+{
+	funcao inicio ()
+	{
+		cadeia nome = ""
+		enquanto (nome != "SAIR"){
+		escreva ("Informe um nome: ")
+		leia (nome)
+		
+		
+		}escreva ("Programa encerrou!")
+	}
+}

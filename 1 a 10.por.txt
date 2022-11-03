@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro x = 1
+		enquanto (x<= 10){
+			escreva ("\nX = ",+x)
+			x = x+1
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

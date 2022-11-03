@@ -1,0 +1,23 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro x = 500
+		enquanto (x<= 800){
+			se ( x %2 == 0){
+				escreva (x+" é par\n")
+			}
+			x++
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
